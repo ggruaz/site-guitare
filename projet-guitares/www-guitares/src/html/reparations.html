@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="fr"><!-- InstanceBegin template="/Templates/modeleguitare.dwt" codeOutsideHTMLIsLocked="false" -->
+	<head>
+
+			<meta charset="utf-8" />
+			<meta http-equiv="default-style" content="text/css" />
+			<meta name="author" content="Gruaz" />
+			<meta name="description" content="Page de réparation" />
+
+
+			<!--
+			==========================================================================================================================
+			Auteurs : Gruaz (Tornese, Kurzen)
+			Date de création : 2009 - 2012
+			But	: site Web pour un magasin de guitares.
+			Description : Réaliser un site Web concernant un pseudo magasin de guitares. Ce site est un exemple développé avec DW et
+			les informations sont issues d'une situation fictive dont le processus de conception a été pratiqué durant le cours.
+			La réalisation de ce site est faite de manière à ce que le code soit le "plus propre" possible (html et css), et quelques
+			considérations d'accessibilité soient prises en compte (Structure des pages, navigation, accesskey, contrastes, etc.)
+			Dernière modification : janvier 2012. Adaptation pour HTML5
+			==========================================================================================================================
+			-->
+
+
+
+			<title>Guitares Gage - Prestation de réparations</title>
+			<link rel="stylesheet" type="text/css" href="../../resources/css/styles.css" media="screen" />
+			<link href="index2.html" rel="home" type="text/html" title="Page d'index" />
+
+			<script>
+				function MM_openBrWindow(theURL,winName,features) { //v2.0
+					window.open(theURL,winName,features);
+				}
+			</script>
+	</head>
+
+	<body>
+		<!-- Conteneur du site -->
+		<div id="conteneur">
+			<!-- Header (Logo et menu) -->
+			<header id="header">
+							<!-- Logo du site avec lien sur index.html -->
+							<div id="logo">
+								<a tabindex="1" href="index2.html" accesskey="1" title="Accesskey 1 pour retour accueil" hreflang="fr">
+									<span class="invisble">index</span>
+									<img id="imglogo" src="../../resources/images/logo.gif" title="Logo du site" alt="Logo du site" />
+								</a>
+							</div> <!--logo-->
+							<!-- Menu de navigation principal en haut -->
+							<nav id="navigation">
+								<ul>
+									<li><a href="reparations.html" title="Page de réparations">Réparations</a></li>
+									<li><a href="expertise.html" title="Page d'expertise">Expertise</a></li>
+									<li><a href="articlesenstock.html" title="Page des articles en stock">En Stock</a></li>
+								</ul>
+							</nav> <!--navigation-->
+			</header> <!--header-->
+
+			<!-- Bloc latéral de gauche	-->
+					<aside id="corps">
+						<!-- Menu gauche -->
+						<nav id="menu">
+							<ul>
+								<li><a href="news.html" title="Page des news">News</a></li>
+								<li><a href="contacts.html" title ="Page pour contacter le propriétaire">Contact</a></li>
+								<li><a href="video.html" title ="Page pour voir une video">Vidéo</a></li>
+							</ul>
+						</nav> <!--menu-->
+					</aside> <!-- bloc latéral gauche -->
+
+					<!-- Bloc de contenu du site qui permet d'être édité -->
+					<section id="bloc_contenu">
+								<h1>Prestations de réparations</h1>
+									<p>Pour une liste des prestations de réparations dont nous nous occupons, cliquez sur la partie de la guitare qui vous intéresse.</p>
+									<img src="../../userContent/images/map.gif" alt="Guitare Réparation" class="imgcenter" usemap="#Map" />
+									<map name="Map" id="Map">
+											<area	 shape="poly" 
+															coords="180,149,155,127,237,27,263,49" 
+															href="#" 
+															alt="Manche" 
+															onclick="MM_openBrWindow('mancheguitare.html','Manche','width=250,height=300')" 
+											 />
+											 
+											<area shape="circle" 
+														coords="103,219,97" 
+														href="#" 
+														alt="Corps" 
+														onclick="MM_openBrWindow('corpsguitare.html','Corp','width=250,height=300')" 
+											/>
+									</map>
+					</section> <!--bloc_contenu-->
+
+
+
+					<!-- Pied de page avec date automatique et logo validation W3C -->
+					<footer id="footer">
+						Màj faite par GGZ, le 3 juin 2019
+					</footer> 
+					<!--footer-->
+		</div> <!--conteneur-->
+	</body>
+</html>
