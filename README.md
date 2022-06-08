@@ -4,3 +4,8 @@ Auteur : Gilbert Gruaz
 Date : 17 décembre 2019
 Modif : 20 octobre 2021 pour tester sur la nouvelle machine
 Modif 2 : depuis visual studio code gg ...
+
+
+Bonsoir je suis josé
+
+Petit test
