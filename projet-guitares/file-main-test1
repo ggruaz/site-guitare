@@ -1,1 +1,4 @@
 Ce fichier contient du texte pour tester les merges entre main et les branches
+
+Ce fichier est modifié après avoir fait un pull request de main dans bug1ggz. On va tester le merge inverse
+pour voir ce qui se passe : que deviennent les fichiers de bug1ggz lorsqu'ils doivent être merger dans main ?
